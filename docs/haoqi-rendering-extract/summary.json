@@ -1,0 +1,133 @@
+[
+  {
+    "anchor": "FluidPushPass",
+    "count": 1,
+    "positions": [
+      361239
+    ]
+  },
+  {
+    "anchor": "LensFlarePass",
+    "count": 2,
+    "positions": [
+      355770,
+      356205
+    ]
+  },
+  {
+    "anchor": "uDisplacementStrength",
+    "count": 3,
+    "positions": [
+      366276,
+      366654,
+      369358
+    ]
+  },
+  {
+    "anchor": "uChromaticBoost",
+    "count": 3,
+    "positions": [
+      366313,
+      367560,
+      369405
+    ]
+  },
+  {
+    "anchor": "uTrail[16]",
+    "count": 1,
+    "positions": [
+      367626
+    ]
+  },
+  {
+    "anchor": "getFluidDisplayColor",
+    "count": 2,
+    "positions": [
+      366464,
+      369162
+    ]
+  },
+  {
+    "anchor": "applyPointerOverlay",
+    "count": 2,
+    "positions": [
+      367991,
+      369206
+    ]
+  },
+  {
+    "anchor": "curl",
+    "count": 12,
+    "positions": [
+      360803,
+      360934,
+      361169,
+      361357,
+      370549,
+      371045,
+      371423,
+      371514,
+      371532,
+      371667
+    ]
+  },
+  {
+    "anchor": "vorticity",
+    "count": 8,
+    "positions": [
+      360947,
+      361915,
+      371063,
+      371236,
+      371549,
+      371623,
+      371713,
+      373236
+    ]
+  },
+  {
+    "anchor": "divergence",
+    "count": 15,
+    "positions": [
+      360841,
+      360965,
+      363593,
+      364002,
+      364075,
+      364680,
+      364775,
+      370631,
+      371086,
+      371753
+    ]
+  },
+  {
+    "anchor": "pressure",
+    "count": 22,
+    "positions": [
+      360583,
+      360866,
+      360884,
+      360998,
+      361146,
+      361281,
+      364241,
+      364733,
+      364818,
+      370678
+    ]
+  },
+  {
+    "shaderish_count": 8,
+    "shaderish_files": [
+      "shaderish-00.glsl",
+      "shaderish-01.glsl",
+      "shaderish-02.glsl",
+      "shaderish-03.glsl",
+      "shaderish-04.glsl",
+      "shaderish-05.glsl",
+      "shaderish-06.glsl",
+      "shaderish-07.glsl"
+    ]
+  }
+]

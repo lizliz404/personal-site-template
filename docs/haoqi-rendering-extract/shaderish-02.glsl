@@ -1,0 +1,1 @@
+,{uVelocity:{value:null},uTexelSize:{value:s.clone()}}),this.vorticityMaterial=ck(

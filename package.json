@@ -1,0 +1,11 @@
+{
+  "name": "personal-site-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes serve@14.2.5 -l 4177 .",
+    "check": "node scripts/check-artifact.mjs"
+  },
+  "devDependencies": {}
+}

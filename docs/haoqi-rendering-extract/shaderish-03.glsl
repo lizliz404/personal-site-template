@@ -1,0 +1,1 @@
+,{uVelocity:{value:null},uCurl:{value:null},uTexelSize:{value:s.clone()},uResolution:{value:u.clone()},uPointer:{value:this.pointer},uPointerDelta:{value:this.pointerDelta},uCurlStrength:{value:o},uSplatRadius:{value:Math.max(.002*t,5e-4)},uSplatForce:{value:Math.max(3e3*r,0)}}),this.divergenceMaterial=ck(
