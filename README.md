@@ -1,48 +1,31 @@
-# Personal Site Template
+# lab
 
-A standalone project for the next Liz personal site template.
+Design-engineering lab for pixel-level study/recreation of high-craft personal sites.
 
-This project replaces the loose `/preview/` iteration loop with a real, inspectable template project. The current runnable artifact is `app/index.html`, based on the V3 prototype.
+**Live:** https://lab.lizliz.xyz  
+**Repo:** https://github.com/lizliz404/personal-site-template  
+**Deploy:** Cloudflare Pages (GitHub-connected) → custom domain `lab.lizliz.xyz`
 
-## Source references
+## Positioning
 
-The template is built from three already-selected references:
+This is **not** Liz's production personal homepage, and not a `lizliz.xyz/preview` subpage.
 
-1. **haoqi.design** — compressed design-engineering homepage: WebGL/canvas atmosphere, tool-panel UI, theme/sound/time/coords microcopy, char reveal, dotted hover, strong motion identity.
-2. **maximeheckel.com** — creative frontend craft archive: WebGL/shader identity, capability-themed work structure, strong metadata and publication infrastructure.
-3. **Vercel Geist / design.md** — restrained product-system discipline: neutral surfaces, precise typography, accessibility, state colors, consistent interaction primitives.
+It is a standalone lab surface whose job is to recreate the mechanism of targets like **haoqi.design** (plus reference studies of maximeheckel.com, Geist, hanzilla, and the 8-case benchmark set). Content/identity for Liz's real site is out of scope here.
 
-See `docs/reference-brief.md` for the extracted design brief.
-See `docs/gap-analysis.md` for the concrete gap analysis against all three references.
-See `docs/legacy-compact-design.md` for the earlier compact design system spec.
-See `docs/reference-hanzilla.md` for the hanzilla.co personal site reference.
-
-## Reference archive
-
-`app/references/` contains source materials:
-- `personal-site-benchmark-haoqi-maxime.md` — original benchmark analysis of haoqi + maxime
-- `vercel-geist.md` — Vercel Geist design system full spec
-- `legacy-liz-personal-compact-design.md` — earlier compact design spec
-- `legacy-compact-v2.html` / `legacy-compact-v3.html` — earlier HTML iterations
-
-## Current artifact
+## Artifact
 
 ```text
 app/index.html
 ```
 
-Current V3 capabilities:
+Cloudflare Pages publishes the `app/` directory as the site root (no build step).
 
-- WebGL FBM shader background
-- Canvas2D particle layer
-- loading sequence with progress counter
-- char-by-char reveal animation
-- SVG stroke drawing
-- 3D tilt cards
-- system panel: theme / sound / time / coords
-- inner scroll container
-- dotted hover affordance
-- light/dark theme
+## References in-repo
+
+- `docs/benchmark-8-cases.md` — full 8-case personal-site design benchmark (same as notes original)
+- `docs/reference-brief.md` / `docs/gap-analysis.md` / `docs/design-prd.md`
+- `docs/haoqi-rendering-extract/` — FluidPush / LensFlare shader extracts
+- `docs/reference-hanzilla.md`, `app/references/vercel-geist.md`
 
 ## Run locally
 
@@ -50,31 +33,26 @@ Current V3 capabilities:
 npm run dev
 ```
 
-Then open:
+Open:
 
 ```text
 http://127.0.0.1:4177/app/
 ```
 
-No build step is required; this is intentionally static while the design direction is still being judged.
+```bash
+npm run check
+```
 
-## Design rule
+## Deploy
 
-This template should not become a generic effects demo.
+Push to `main` on GitHub. Cloudflare Pages builds automatically:
 
-The three reference inputs are used with different weights:
+- project name: `lab`
+- production branch: `main`
+- destination dir: `app`
+- custom domain: `lab.lizliz.xyz`
 
-| Reference | Steal | Do not steal blindly |
-|---|---|---|
-| haoqi.design | realtime artifact feeling, system-panel language, char reveal, WebGL atmosphere | decorative control-panel fetish, interaction that hides content |
-| maximeheckel.com | capability-themed work archive, craft compounding structure | payload bloat, 3D work irrelevant to Liz's actual proof |
-| Vercel Geist | precision, accessible states, spacing/typographic discipline | sterile SaaS dashboard blandness |
+## Scope rule
 
-## Acceptance criteria for the next version
-
-- The first screen feels alive within 1 second of load.
-- Motion proves taste and engineering craft, not just “there is animation”.
-- Projects are grouped by capability, not chronology only.
-- Writing is visible as proof, not buried.
-- Interaction remains usable with reduced motion.
-- The page can be shared as a serious artifact, with metadata and OG/social polish added before production use.
+- Goal: high-fidelity recreation of haoqi-class design-engineering surfaces.
+- Non-goal: mapping controls/content to Liz personal brand for production homepage use.
