@@ -5,14 +5,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>lab.lizliz.xyz — haoqi.design study (V8)</title>
 <meta name="description" content="Standalone design lab: pixel-level study/recreation of haoqi.design-class surfaces. Not the production personal homepage." />
+<link rel="canonical" href="https://lab.lizliz.xyz/" />
 <meta property="og:title" content="lab.lizliz.xyz — haoqi study" />
 <meta property="og:description" content="Design-engineering lab. FluidPush + LensFlare-lite study surface." />
 <meta property="og:type" content="website" />
+<meta property="og:url" content="https://lab.lizliz.xyz/" />
+<meta property="og:image" content="https://lab.lizliz.xyz/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="lab.lizliz.xyz" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="lab.lizliz.xyz — haoqi study" />
+<meta name="twitter:description" content="Design-engineering lab. FluidPush + LensFlare-lite study surface." />
+<meta name="twitter:image" content="https://lab.lizliz.xyz/og.png" />
 <meta name="theme-color" content="#fbfaf4" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://lab.lizliz.xyz/#website",
+      "url": "https://lab.lizliz.xyz/",
+      "name": "lab.lizliz.xyz",
+      "description": "Standalone design lab: pixel-level study/recreation of haoqi.design-class surfaces. Not the production personal homepage.",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://lab.lizliz.xyz/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://lab.lizliz.xyz/#person",
+      "name": "Liz",
+      "url": "https://lab.lizliz.xyz/",
+      "email": "hello@lizliz.xyz",
+      "sameAs": ["https://github.com/lizlzd"]
+    }
+  ]
+}
+</script>
 <script type="importmap">
 {
   "imports": {
@@ -608,8 +644,10 @@ a { color: inherit; text-decoration: inherit; }
 
 /* ── Caption text ──────────────────────────────────────── */
 .caption {
+  margin: 0;
   font-family: var(--font-mono);
   font-size: 13px;
+  font-weight: 500;
   color: var(--label-2);
   letter-spacing: .06em;
   text-transform: uppercase;
@@ -718,7 +756,7 @@ a { color: inherit; text-decoration: inherit; }
       <div class="hero-top">
         <div class="grid-12" style="width:100%;gap:8px;">
           <div class="hero-identity" data-reveal>
-            <p class="caption" style="padding:8px;"> Liz — Agents / Markets / Language</p>
+            <h1 class="caption" style="padding:8px;">Liz — Agents / Markets / Language</h1>
             <p style="padding:8px;font-size:clamp(1rem,3vw,1.4rem);line-height:1.3;color:var(--label-2);">
               在 agent、市场与语言的边界上构建：把想法变成工具，把工具放进真实反馈，把反馈写成可复用判断。
             </p>
