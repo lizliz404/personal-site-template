@@ -1,0 +1,21 @@
+# lab.lizliz.xyz
+
+> Standalone design-engineering lab for pixel-level study/recreation of high-craft personal site surfaces. Not the production personal homepage (lizliz.xyz).
+
+## Site
+
+- Home: https://lab.lizliz.xyz/
+- Sitemap: https://lab.lizliz.xyz/sitemap.xml
+- Canonical host: lab.lizliz.xyz (Cloudflare Pages)
+
+## Maker
+
+- Liz — agents, markets, language
+- Email: hello@lizliz.xyz
+- GitHub: https://github.com/lizlzd
+
+## What this is
+
+- Design study surface: haoqi.design-class FluidPush + LensFlare-lite experiments (V8)
+- On-page product references: Brain Rush, PEP Words, Bitcoin Whitepaper CN
+- Generic personal-site template / lab — keep content factual; do not treat as the production homepage
