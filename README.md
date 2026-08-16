@@ -2,6 +2,8 @@
 
 Design-engineering lab for pixel-level study/recreation of high-craft personal sites.
 
+**Status:** Parked lab. Public on purpose. Do not iterate, refactor, or port this into lizliz.xyz unless Liz explicitly asks.
+
 **Live:** https://lab.lizliz.xyz  
 **Repo:** https://github.com/lizliz404/personal-site-template  
 **Deploy:** Cloudflare Pages (GitHub-connected) → custom domain `lab.lizliz.xyz`
